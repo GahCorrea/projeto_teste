@@ -1,0 +1,56 @@
+.container form {
+    margin-top: 10%;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.form button {
+    font-weight: bold;
+    display: block;
+    border-radius: 10%;
+    font-size: large;
+}
+
+.form input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #000;
+    width: 50rem;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.loading {
+    animation: spin 1s infinite
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #E6E6FA;
+    width: 500px;
+    margin: auto 690px;
+    background-color: #F8F8FF;
+    border-radius: 10%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0Deg)
+    }
+
+    100% {
+        transform: rotateZ(360Deg)
+    }
+}
+
+.icon {
+    float: left;
+    margin: 2% -100% 0 25%;
+}
